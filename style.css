@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+    margin: 0;
+    padding: 0;
+    color: #222;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+header {
+    background: linear-gradient(90deg, #ff6a00 0%, #ee0979 100%);
+    color: #fff;
+    padding: 2.5rem 0 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    border-radius: 0 0 32px 32px;
+    font-size: 2.2rem;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    margin-top: 0.7rem;
+    letter-spacing: 2px;
+    color: #ffe082;
+}
+
+section {
+    margin: 2.5rem auto;
+    padding: 2.5rem;
+    max-width: 700px;
+    border-radius: 24px;
+    box-shadow: 0 2px 16px rgba(67,198,172,0.18);
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.about {
+    background: linear-gradient(120deg, #f7971e 0%, #ffd200 100%);
+    color: #222;
+}
+
+.skills {
+    background: linear-gradient(120deg, #43cea2 0%, #185a9d 100%);
+    color: #fff;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.skills li {
+    background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 8px rgba(221,36,118,0.15);
+    transition: transform 0.2s, background 0.2s;
+}
+
+.skills li:hover {
+    transform: scale(1.12) rotate(-2deg);
+    background: linear-gradient(90deg, #ffe53b 0%, #fd3838 100%);
+    color: #222;
+}
+
+.mission {
+    background: linear-gradient(120deg, #00c6ff 0%, #0072ff 100%);
+    color: #fff;
+}
+
+h2 {
+    color: #fff176;
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.2rem 0;
+    background: linear-gradient(90deg, #43c6ac 0%, #f8ffae 100%);
+    color: #222;
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 -2px 12px rgba(67,198,172,0.12);
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff176;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
